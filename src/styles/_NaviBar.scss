@@ -1,0 +1,52 @@
+.NaviBar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #31708e;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Exo 2', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	.nav-color {
+		background-color: #31708e;
+	}
+	#navLogo {
+		margin-right: 20px;
+		font-weight: 300;
+		border: 2px solid #fff;
+		padding: 2px 8px;
+	}
+	#navTitle {
+		font-size: 0.9rem;
+		letter-spacing: 0.13rem;
+		color: #fff;
+	}
+
+	.navItems-wrapper {
+		.navbar-nav.ml-auto li.navItem a  {
+			position: relative;
+			color: #fff !important;
+			opacity: 0.8;
+			font-size: 0.6rem;
+			letter-spacing: 0.03rem;
+			margin-right: 5px;
+			&:hover {
+				opacity: 1;
+				animation: text-grow 0.35s ease-in-out forwards;
+			}
+		}
+	}
+}
+
+// @media only screen 
+// and (min-device-width : 360px) 
+// and (max-device-width : 480px) {
+// 	#navTitle {
+// 		font-size: 0.7rem;
+// 		letter-spacing: 0.05rem;
+// 	}
+// }

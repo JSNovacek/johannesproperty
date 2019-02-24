@@ -1,0 +1,57 @@
+body {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 16px;
+	color: $color_text;
+}
+
+.exo {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.hero {
+	color: #fff;
+}
+
+.title {
+	position: relative;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	animation: fade-in-up 1.5s ease-in-out forwards;
+}
+
+.title-border {
+	position: relative;
+	padding: 15px 35px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	border-top: solid 2px #fff;
+	border-bottom: solid 2px #fff;
+	animation: fade-in-up 1.5s ease-in-out forwards;
+}
+
+.title-lower {
+	position: relative;
+	font-size: 1.5rem;
+	font-weight: 400;
+	letter-spacing: 0.1rem;
+	animation: fade-in-up 1.5s ease-in-out forwards;
+}
+
+.subtitle {
+	position: relative;
+	font-size: 1.3rem;
+	font-weight: 300;
+	animation: fade-in-up 1.5s ease-in-out forwards;
+}
+
+.hero-top {
+	margin-top: 50px;
+}
+
+.sec-header {
+	font-weight: 300;
+}

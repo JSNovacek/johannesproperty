@@ -1,0 +1,25 @@
+.TextImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 50px;
+  .image-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    &:hover {
+      background-color: rgba(103, 119, 99, 0.8);
+    }
+    .text-image {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #fff;
+      font-size: 1.3rem;
+    }
+  }
+}

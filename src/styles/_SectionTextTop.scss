@@ -1,0 +1,22 @@
+.SectionTextTop {
+  .sec-tt-wrapper {
+    // border: solid 1px #000;
+    padding: 70px 50px 20px 50px;
+    text-align: center;
+    .sec-tt-header {
+      font-size: 1.6rem;
+      margin: 20px 0;
+    }
+    .sec-tt-bottom {
+      // border: solid 1px #000;
+      margin: 20px 0;
+      .sec-tt-content {
+        // border: solid 1px #000;
+        margin: 20px 0;
+      }
+      .sec-tt-btn {
+        margin: 20px 0;
+      }
+    }
+  }
+}

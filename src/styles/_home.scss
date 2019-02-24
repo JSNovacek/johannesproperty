@@ -1,0 +1,28 @@
+.HomePage {
+  // padding-top: 80px;
+  .mainTitle {
+    position: relative;
+    animation: fade-in-up 1.5s ease-in-out forwards;
+  }
+
+  .jp-logo-hero {
+    position: relative;
+    animation: fade-in-down 1.5s ease-in-out forwards;
+  }
+  .main-sub{
+    margin-top: -10px;
+  }
+  .mainBtn {
+    position: absolute;
+    bottom: 15%;
+    left: calc( 50% - 25px );
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-top: 50px;
+    animation: fade-in-up 1.5s ease-in-out forwards;
+  }
+}

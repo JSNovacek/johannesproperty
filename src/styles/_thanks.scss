@@ -1,0 +1,20 @@
+.ThanksPage {
+  min-height: calc( 100vh - 71px);
+  .thanks-wrapper {
+    padding-top: 25vh;
+    .thanks-top {
+      color: #333;
+    }
+    .thanks-sub {
+      color: #333;
+      margin-bottom: 70px;
+    }
+    .thanks-btn {
+      padding: 10px 50px;
+      border: solid 3px #31708e;
+      font-weight: 700;
+      background-color: #31708e;
+      color: #fff;
+    }
+  }
+}
