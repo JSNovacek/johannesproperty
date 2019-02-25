@@ -11,7 +11,6 @@ import imgSrc1 from '../assets/images/about/about-img1.jpg';
 import imgSrc2 from '../assets/images/about/about-img2.jpg';
 import teamSrc from '../assets/images/about/about-hero-team.jpg';
 import johanSrc from '../assets/images/about/Johan-bw.png';
-import mikeSrc from '../assets/images/about/Mike-bw.jpg';
 import cassieSrc from '../assets/images/about/Cassie-bw.jpg';
 import vinceSrc from '../assets/images/about/Vince-bw.jpg';
 
@@ -78,7 +77,7 @@ const AboutPage = () => (
     </LazyHero>
     <Container>
       <Row className="team-wrapper">
-        <Col md="3">
+        <Col md="4">
           <PersonCard
             imageSrc={johanSrc}
             name="Johannes"
@@ -90,7 +89,7 @@ const AboutPage = () => (
               learned that property could be refined to a much higher level."
           />
         </Col>
-        <Col md="3">
+        <Col md="4">
           <PersonCard
             imageSrc={cassieSrc}
             name="Cassie"
@@ -100,7 +99,7 @@ const AboutPage = () => (
               detail are crucial in keeping us on track."
           />
         </Col>
-        <Col md="3">
+        <Col md="4">
           <PersonCard
             imageSrc={vinceSrc}
             name="Vince"
@@ -108,16 +107,6 @@ const AboutPage = () => (
             text="Vince has a key position within the team taking care of all our finance needs.
               As a chartered accountant for more than 25 years, his knowledge and skills are
               very much appreciated."
-          />
-        </Col>
-        <Col md="3">
-          <PersonCard
-            imageSrc={mikeSrc}
-            name="Mike"
-            title="Web Developer"
-            text="A software developer from San Diego, Mike brings his love and skill for web design
-              to the team. Using his software engineering background, he also assists with any tech
-              tasks behind the scenes."
           />
         </Col>
       </Row>

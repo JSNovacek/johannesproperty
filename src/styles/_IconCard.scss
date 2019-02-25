@@ -1,5 +1,4 @@
 .IconCard {
-  // border: solid 1px #000;
   width: 100%;
   min-height: 350px;
   padding: 30px 20px;
@@ -15,7 +14,6 @@
       left: -20px;
       top: 30px;
       z-index: 1;
-      // custom positioning
       &.prop-manager {
         left: -23px;
         top: 27px;
@@ -38,7 +36,6 @@
     height: 0;
     border: 50px solid transparent;
     border-top-color: #31708e;
-    // z-index: -1;
   }
   .icon-name {
     padding-top: 30px;

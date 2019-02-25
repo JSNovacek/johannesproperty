@@ -1,12 +1,10 @@
 .PersonCard {
-  // border: solid 1px #000;
   width: 100%;
-  // height: 350px;
   min-height: 350px;
   padding: 30px 20px;
   .person-image {
     width: 100%;
-    min-width: 215px;
+    min-width: 310px;
   }
   .person-name {
     padding-top: 30px;
@@ -17,7 +15,6 @@
     width: 100%;
   }
   .person-title {
-    // padding-top: 10px;
     font-size: 0.8rem;
   }
   .person-text {
